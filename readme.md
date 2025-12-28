@@ -51,7 +51,7 @@ The time series is already cleaned, aligned, interpolated, and normalized in pri
 
 ## Phases & Scripts
 
-### Phase 1 – Load & Clean (`eda1.py`)
+### Phase 1 and 2– Load & Clean (`eda1.py, eda2.py`)
 
 Tasks:
 
