@@ -8,16 +8,16 @@ The repository is organized into clear **phases**, each implemented in a separat
 phase 0 and this is very important
 https://colab.research.google.com/drive/1V2wSAwC2Knp2HQ1WSIjgaE48es-2X6Bx?usp=sharing
 this link is the data engineering part where the datset is made using 2 dataset chlorophyll a_water_quality.csv and water_quality.csv
-Dataset1:
+
 import kagglehub
 
-# Download latest version
+# Dataset1:
 path = kagglehub.dataset_download("downshift/water-quality-monitoring-dataset")
 
-Dataset2:
+
 import kagglehub
 
-# Download latest version
+# Dataset2:
 path = kagglehub.dataset_download("krishnanshverma/england-water-quality")
 
 print("Path to dataset files:", path)
