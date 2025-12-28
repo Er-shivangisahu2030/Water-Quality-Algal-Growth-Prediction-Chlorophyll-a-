@@ -1,1 +1,1 @@
-# Water-Quality-Algal-Growth-Prediction-Chlorophyll-a-
+EVERY DETAILS OF THE PROJECT IS IN MASTER BRANCH
