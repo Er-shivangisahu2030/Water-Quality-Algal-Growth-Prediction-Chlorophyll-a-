@@ -5,21 +5,20 @@ The core target is **Chlorophyll-a**, a proxy for algal biomass, predicted from 
 
 The repository is organized into clear **phases**, each implemented in a separate Python script:
 
-phase 0 and this is very important
+-Phase 0 
 https://colab.research.google.com/drive/1V2wSAwC2Knp2HQ1WSIjgaE48es-2X6Bx?usp=sharing
 this link is the data engineering part where the datset is made using 2 dataset chlorophyll a_water_quality.csv and water_quality.csv
 
-import kagglehub
-
 # Dataset1:
+import kagglehub
 path = kagglehub.dataset_download("downshift/water-quality-monitoring-dataset")
 
+# Dataset2:
 
 import kagglehub
-
-# Dataset2:
 path = kagglehub.dataset_download("krishnanshverma/england-water-quality")
 
+#Structure of the project
 print("Path to dataset files:", path)
 print("Path to dataset files:", path)
 
